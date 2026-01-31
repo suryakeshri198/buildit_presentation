@@ -30,13 +30,14 @@ This repository is a **pitch deck website template** for hackathon participants.
 - Do **not** work on `main` (or `master`). Create a new branch, for example:
   - `git checkout -b my-pitch-deck` // imp write your name or your team leader name as the branch name with last three digits of your contact number
 - Commit your changes and push the branch to **your fork**:
-  - `git push -u origin my-pitch-deck` 
+  - `git push -u origin my-pitch-deck`
+- VERY IMP : Make sure you merge your main  with your newly made branch while not deleting the branch itself.
 
 ### 5. Open a Pull Request (PR)
 
-- On GitHub, open a **Pull Request** from your branch (e.g. `my-pitch-deck`) **toward the original repository** (the one you forked from).
+- On GitHub, open a **Pull Request** from your branch/main (e.g. `my-pitch-deck`) **toward the original repository** (the one you forked from).
 - Fill in the PR title and description so it’s clear what you changed.
-- Note: PRs may not be merged, but **creating the PR is part of the evaluation**. You are expected to fork, update, branch, and open a PR.
+- Note: PRs will not be merged, but **creating the PR is part of the evaluation**. You are expected to fork, update, branch, and open a PR.
 
 ### 6. Host the site on Vercel
 
@@ -44,6 +45,7 @@ This repository is a **pitch deck website template** for hackathon participants.
 - **Import** your forked repository and deploy. Vercel will detect Next.js and build it.
 - Use the default settings if you’re unsure. After deploy, you’ll get a live URL.
 - **Deploying successfully on Vercel** is part of your score.
+- IMP : Make sure you off the vercel authentication in settings. 
 
 ---
 
