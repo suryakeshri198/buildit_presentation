@@ -17,18 +17,18 @@ const leanCanvasSections = [
       {
         title: "Top 3 Problems:",
         points: [
-          "Students watch hours of tutorials but freeze when building independently",
-          "Most learners collect courses instead of skills, mistaking progress for productivity",
-          "Anyone can write 'proficient in X,' but very few can actually prove it",
+         "Manual appointment handling causes overcrowded waiting areas and long delays.",
+  "Patients lack visibility of queue status or schedule changes.",
+  "Clinic staff struggle with coordination due to paper-based registration."
         ],
       },
       {
         title: "Existing Alternatives:",
         points: [
-          "Online courses (Udemy, Coursera)",
-          "Tutorial videos (YouTube, freeCodeCamp)",
-          "Bootcamps",
-          "University degrees",
+         "Phone call appointment booking",
+  "Walk-in queue systems",
+  "Manual register/paper tracking",
+  "Basic spreadsheet scheduling"
         ],
       },
     ],
@@ -40,9 +40,10 @@ const leanCanvasSections = [
       {
         title: "Top 3 Features:",
         points: [
-          "Project-based learning with real-world projects",
-          "Mentor-guided development and code reviews",
-          "Verified portfolio generation from actual contributions",
+          "Digital slot booking system for patients",
+  "Real-time queue tracking dashboard",
+  "Automated reminders via SMS/WhatsApp",
+  "QR-based digital check-in at clinic",
         ],
       },
     ],
@@ -54,13 +55,10 @@ const leanCanvasSections = [
       {
         title: "",
         points: [
-          "Build Skills. Build Projects. Build Proof.",
-          "Learn by doing, not just watching",
-          "Verified skills through real project contributions",
-          "Why this matters:",
-          "Portfolio > Resume",
-          "Code doesn't lie",
-          "Emotional benefit: Confidence through proof",
+         "Lightweight system tailored for small clinics",
+  "Reduces waiting time and overcrowding",
+  "Improves patient communication and coordination",
+  "Simple adoption without complex infrastructure",
         ],
       },
     ],
@@ -72,10 +70,10 @@ const leanCanvasSections = [
       {
         title: "",
         points: [
-          "Two-sided network: Students + Mentors + Recruiters",
-          "GitHub-based verification system",
-          "Real project portfolio generation",
-          "Direct path from learning to hiring",
+          "Simple lightweight solution",
+  "Focused on small clinic needs",
+  "Easy adoption and usability",
+  "Improves patient satisfaction",
         ],
       },
     ],
@@ -87,19 +85,19 @@ const leanCanvasSections = [
       {
         title: "Target Customers:",
         points: [
-          "Computer science students",
-          "Career switchers",
-          "Self-taught developers",
-          "Recent graduates",
+          "Small and medium clinics",
+  "Doctors managing appointments",
+  "Patients booking visits",
+  "Clinic administrative staff",
         ],
       },
       {
         title: "Early Adopters:",
         points: [
-          "Students at MUJ (Manipal University Jaipur)",
-          "TechStar SWJ'26 participants",
-          "Active GitHub users",
-          "People already building side projects",
+          "Small clinics with manual scheduling",
+  "Doctors facing patient overload",
+  "Clinics open to digital tools",
+  "Patients comfortable using mobile booking",
         ],
       },
     ],
@@ -111,12 +109,10 @@ const leanCanvasSections = [
       {
         title: "",
         points: [
-          "Projects completed per student",
-          "Code contributions per project",
-          "Mentor review response time",
-          "Student retention rate",
-          "Portfolio views by recruiters",
-          "Job placement rate",
+         "Average patient waiting time",
+  "Number of successful digital bookings",
+  "Appointment no-show reduction rate",
+  "Daily patient throughput per clinic",
         ],
       },
     ],
@@ -128,11 +124,10 @@ const leanCanvasSections = [
       {
         title: "Path to Customers:",
         points: [
-          "University partnerships (starting with MUJ)",
-          "TechStar program integration",
-          "Word of mouth from early adopters",
-          "GitHub community engagement",
-          "Tech community events and hackathons",
+          "Direct onboarding of clinics",
+  "Healthcare tech partnerships",
+  "Online promotion and outreach",
+  "Word-of-mouth referrals",
         ],
       },
     ],
@@ -144,11 +139,10 @@ const leanCanvasSections = [
       {
         title: "",
         points: [
-          "Platform development and maintenance",
-          "Mentor compensation",
-          "Payment processing fees",
-          "Customer support",
-          "Marketing and partnerships",
+        "Cloud hosting and infrastructure",
+  "Development and maintenance",
+  "Marketing and outreach",
+  "Customer support operations",
         ],
       },
     ],
@@ -160,14 +154,10 @@ const leanCanvasSections = [
       {
         title: "",
         points: [
-          "Project-based commission from enrollment fees",
-          "Pro subscription (AI-powered features)",
-          "Paid mentorship support",
-          "Micro-revenue streams (certifications, premium tools)",
-          "Key Numbers:",
-          "Revenue per project enrollment",
-          "Gross margin per subscription",
-          "Lifetime value of active learners",
+          "Subscription fee from clinics",
+  "Premium feature upgrades",
+  "Setup or customization charges",
+  "Support and maintenance plans",
         ],
       },
     ],

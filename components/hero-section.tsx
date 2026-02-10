@@ -83,13 +83,13 @@ export function HeroSection() {
 
         {/* Tagline — change this to match your project. */}
         <h2 className="font-[var(--font-bebas)] text-muted-foreground/60 text-[clamp(1rem,3vw,2rem)] mt-4 tracking-wide">
-          BUILD SKILLS. BUILD PROJECTS. BUILD PROOF.
+          SMART CLINICS. HAPPY PATIENTS. ZERO CHAOS.
         </h2>
 
         {/* Short description. Replace with your own pitch. */}
-        <p className="mt-12 max-w-lg font-mono text-sm text-muted-foreground leading-relaxed text-justify">
-          This is the template where you need to tinker around, change texts as per your project. Problems, solution, project review video, MVP (at least 4), revenue model if any, credits, then add a feedback form. Fix errors for extra points.
-        </p>
+        <p className="mt-12 max-w-lg font-mono text-sm text-muted-foreground">
+Small clinics struggle with managing patient appointments, causing long wait times and overcrowding. Our solution introduces smart slot booking, real-time queue visibility, automated reminders, and digital check-ins to streamline clinic operations and improve patient experience.
+</p>
 
         {/* Buttons: #signals scrolls to the Problems section on the same page; /lean-canvas is another route. */}
         <div className="mt-16 flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-4 sm:gap-8">
