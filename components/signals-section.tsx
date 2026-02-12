@@ -15,33 +15,23 @@ gsap.registerPlugin(ScrollTrigger)
 const signals = [
   {
     date: "",
-    title: "Learning Without Doing",
-    note: "Students watch hours of tutorials but freeze the moment they have to build something on their own.",
+    title: "Fragmented School Communication",
+    note: "Schools use multiple channels like WhatsApp, diaries, and notices which causes missed updates and confusion between teachers, parents, and students.",
   },
   {
     date: "",
-    title: "Tutorial Hell Is the New Degree",
-    note: "Most learners collect courses instead of skills, mistaking progress for productivity.",
+    title: "Assignments and Deadlines Get Lost",
+    note: "Homework and announcements are scattered across platforms, leading to missed submissions and lack of tracking.",
   },
   {
     date: "",
-    title: "Resumes Lie, Code Doesn't",
-    note: "Anyone can write \"proficient in X,\" but very few can actually prove it.",
+    title: "Lack of Parent Visibility",
+    note: "Parents cannot easily monitor attendance, performance, or class activities in real time.",
   },
   {
     date: "",
-    title: "Mentorship Is Either Missing or Useless",
-    note: "Students either get no guidance or get spoon-fed without real learning.",
-  },
-  {
-    date: "",
-    title: "Hiring Is a Guessing Game",
-    note: "Companies are forced to trust resumes and interviews instead of real work.",
-  },
-  {
-    date: "",
-    title: "Talent Exists, Direction Doesn't",
-    note: "Capable students and graduates have skills—but no clear path to apply or showcase them.",
+    title: "Manual and Inefficient Administration",
+    note: "Schools rely on manual attendance and paper communication which wastes time and reduces efficiency.",
   },
 ]
 

@@ -95,7 +95,8 @@ export function ColophonSection() {
         <div className="col-span-1">
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Team</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">joe doe</li>
+            <li className="font-mono text-xs text-foreground/80">Surya Keshri</li>
+            <li className="font-mono text-xs text-foreground/80">Vineet Ranga</li>
           </ul>
         </div>
 
@@ -103,7 +104,7 @@ export function ColophonSection() {
         <div className="col-span-1">
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Reviewers (in video)</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">joe doe</li>
+            <li className="font-mono text-xs text-foreground/80">Nirmal Rajkumar</li>
           </ul>
         </div>
 
@@ -111,8 +112,8 @@ export function ColophonSection() {
         <div className="col-span-1">
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">SPECIAL THANKS TO</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Professor X</li>
-            <li className="font-mono text-[8px] uppercase tracking-[0.2em] text-muted-foreground/60 mt-2">meet a professor for ideation (mandatory)</li>
+            <li className="font-mono text-xs text-foreground/80">Krishna Goel</li>
+            <li className="font-mono text-xs text-foreground/80">Varun Mehrotra</li>
           </ul>
         </div>
       </div>
@@ -131,13 +132,14 @@ export function ColophonSection() {
       {/* Feedback Form — replace the href with your actual form link and the label with something like "Give feedback". */}
       <div className="mt-12 text-center">
         <a
-          href="https://forms.gle/aiyJBKZ4ZMV4EJqS8"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block font-mono text-sm text-foreground hover:text-accent transition-colors duration-200 border border-border/40 px-6 py-3 hover:border-accent"
-        >
-          add a form in this button.
-        </a>
+  href="https://forms.gle/LSZVa962eTrBtteF9"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block font-mono text-sm text-foreground hover:text-accent transition-colors duration-200 border border-border/40 px-6 py-3 hover:border-accent"
+>
+  Submit Review
+</a>
+
       </div>
     </section>
   )

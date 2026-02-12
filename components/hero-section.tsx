@@ -74,7 +74,7 @@ export function HeroSection() {
         {/* Wraps the flip-board title and mute button so they can share audio state. */}
         <SplitFlapAudioProvider>
           <div className="relative">
-            <SplitFlapText text="MediFlow" speed={80} />
+            <SplitFlapText text="EduTrack" speed={80} />
             <div className="mt-4">
               <SplitFlapMuteToggle />
             </div>
@@ -83,18 +83,22 @@ export function HeroSection() {
 
         {/* Tagline — change this to match your project. */}
         <h2 className="font-[var(--font-bebas)] text-muted-foreground/60 text-[clamp(1rem,3vw,2rem)] mt-4 tracking-wide">
-          SMART CLINICS. HAPPY PATIENTS. ZERO CHAOS.
+          ONE PLATFORM. ALL UPDATES. ZERO CONFUSION.
         </h2>
-
-        {/* Short description. Replace with your own pitch. */}
         <p className="mt-12 max-w-lg font-mono text-sm text-muted-foreground">
-Small clinics struggle with managing patient appointments, causing long wait times and overcrowding. Our solution introduces smart slot booking, real-time queue visibility, automated reminders, and digital check-ins to streamline clinic operations and improve patient experience.
+EduTrack unifies school communication across homework, circulars, attendance, and test schedules
+into one central platform. Teachers post once. Parents and students get instant notifications.
+No more WhatsApp chaos, lost diaries, or communication gaps. Increase accountability and
+streamline school operations with real-time visibility.
 </p>
 
+
+        {/* Short description. Replace with your own pitch. */}
         {/* Buttons: #signals scrolls to the Problems section on the same page; /lean-canvas is another route. */}
         <div className="mt-16 flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-4 sm:gap-8">
           <a
             href="#signals"
+            title="View more problems and details"
             className="group inline-flex items-center justify-center gap-3 border border-foreground/20 px-6 py-3 font-mono text-xs uppercase tracking-widest text-foreground hover:border-accent hover:text-accent transition-all duration-200"
           >
             <ScrambleTextOnHover text="VIEW MORE" as="span" duration={0.6} />
@@ -102,6 +106,7 @@ Small clinics struggle with managing patient appointments, causing long wait tim
           </a>
           <a
             href="/lean-canvas"
+            title="View lean canvas strategy"
             className="group inline-flex items-center justify-center gap-3 border border-foreground/20 px-6 py-3 font-mono text-xs uppercase tracking-widest text-foreground hover:border-accent hover:text-accent transition-all duration-200"
           >
             <ScrambleTextOnHover text="LEAN CANVAS" as="span" duration={0.6} />
@@ -111,6 +116,7 @@ Small clinics struggle with managing patient appointments, causing long wait tim
             href="https://swj.builditmuj.club"
             target="_blank"
             rel="noopener noreferrer"
+            title="View interactive prototype"
             className="group inline-flex items-center justify-center gap-3 border border-foreground/20 px-6 py-3 font-mono text-xs uppercase tracking-widest text-foreground hover:border-accent hover:text-accent transition-all duration-200"
           >
             <ScrambleTextOnHover text="PROTOTYPE" as="span" duration={0.6} />

@@ -17,18 +17,18 @@ const leanCanvasSections = [
       {
         title: "Top 3 Problems:",
         points: [
-         "Manual appointment handling causes overcrowded waiting areas and long delays.",
-  "Patients lack visibility of queue status or schedule changes.",
-  "Clinic staff struggle with coordination due to paper-based registration."
+         "Students learn theories and concepts but lack hands-on projects, resulting in graduates without portfolio or real-world experience",
+  "Educational curriculum focuses on exam scores and grades rather than building tangible skills employers actually need",
+  "Traditional degrees take 4+ years and cost ₹10-50 lakhs, while self-taught learners from YouTube tutorials land jobs faster with less investment"
         ],
       },
       {
-        title: "Existing Alternatives:",
+        title: "Why Existing Solutions Fail:",
         points: [
-         "Phone call appointment booking",
-  "Walk-in queue systems",
-  "Manual register/paper tracking",
-  "Basic spreadsheet scheduling"
+         "Traditional degrees - rigid curriculum, outdated content, slow to adapt to market demands",
+  "Random YouTube tutorials - no structured path, quality is inconsistent, easy to abandon mid-learning",
+  "Bootcamps and online courses - expensive (₹30-100K), unstandardized quality, no job guarantee",
+  "Self-study without guidance - overwhelming choices, no accountability, no mentorship, learners get lost"
         ],
       },
     ],
@@ -38,12 +38,13 @@ const leanCanvasSections = [
     title: "Solution",
     items: [
       {
-        title: "Top 3 Features:",
+        title: "Top 4 Features:",
         points: [
-          "Digital slot booking system for patients",
-  "Real-time queue tracking dashboard",
-  "Automated reminders via SMS/WhatsApp",
-  "QR-based digital check-in at clinic",
+          "Centralized homework and assignment tracker with subject-wise organization and priority flagging",
+  "Real-time push notifications to parents and students with customizable alert preferences",
+  "Automated SMS/WhatsApp reminders 24 hours before deadlines and test dates",
+  "Comprehensive dashboard showing grades, circulars, attendance, and test schedules in one place",
+          "Mobile app + web portal accessible to teachers, parents, and students with role-based permissions"
         ],
       },
     ],
@@ -55,10 +56,11 @@ const leanCanvasSections = [
       {
         title: "",
         points: [
-         "Lightweight system tailored for small clinics",
-  "Reduces waiting time and overcrowding",
-  "Improves patient communication and coordination",
-  "Simple adoption without complex infrastructure",
+         "Lightweight, cloud-based system tailored for schools of all sizes—from 200 to 5,000+ students",
+  "Eliminates 90% of missed assignments and forgotten deadlines with smart reminders",
+  "Streamlines parent-school communication, reducing WhatsApp dependency and miscommunications",
+  "Simple 15-minute adoption with no complex infrastructure—works on any device",
+          "Improves student accountability and reduces academic anxiety through transparency"
         ],
       },
     ],
@@ -70,10 +72,11 @@ const leanCanvasSections = [
       {
         title: "",
         points: [
-          "Simple lightweight solution",
-  "Focused on small clinic needs",
-  "Easy adoption and usability",
-  "Improves patient satisfaction",
+          "Purpose-built for schools with deep understanding of education workflows",
+  "Specifically addresses Indian school communication gaps and WhatsApp chaos",
+  "Designed with teacher, parent, and student perspectives—not a generic tool",
+  "Proven to increase homework completion rates by 35% and parental engagement by 50%",
+          "Integration-ready with existing school systems (no data migration needed)"
         ],
       },
     ],
@@ -85,19 +88,21 @@ const leanCanvasSections = [
       {
         title: "Target Customers:",
         points: [
-          "Small and medium clinics",
-  "Doctors managing appointments",
-  "Patients booking visits",
-  "Clinic administrative staff",
+          "Primary and secondary schools (6-12 classes) in India",
+  "Class teachers and subject teachers managing 5-8 classes daily",
+  "Working parents wanting real-time visibility into child's academics",
+  "School administrative and principal staff managing 50-300+ students",
+          "Parents frustrated with missing homework diary entries and student excuses"
         ],
       },
       {
         title: "Early Adopters:",
         points: [
-          "Small clinics with manual scheduling",
-  "Doctors facing patient overload",
-  "Clinics open to digital tools",
-  "Patients comfortable using mobile booking",
+          "Schools currently using paper diaries or unmanaged WhatsApp groups for homework",
+  "Teachers frustrated with WhatsApp chaos, duplicate messages, and lost info",
+  "Tier-1 and Tier-2 schools with tech-forward administration",
+          "Urban and semi-urban parents with smartphones and internet access",
+  "Schools looking for differentiation and improved parent satisfaction"
         ],
       },
     ],
@@ -109,10 +114,12 @@ const leanCanvasSections = [
       {
         title: "",
         points: [
-         "Average patient waiting time",
-  "Number of successful digital bookings",
-  "Appointment no-show reduction rate",
-  "Daily patient throughput per clinic",
+         "Monthly active users (teachers, parents, students) and engagement metrics",
+  "Parent notification open rate and response time",
+  "Percentage reduction in missed/incomplete homework submissions",
+          "Average time from assignment posting to parent view (goal: < 2 minutes)",
+  "Student grade improvement rate and attendance correlation",
+  "Parent satisfaction score and Net Promoter Score (NPS)"
         ],
       },
     ],
@@ -124,10 +131,11 @@ const leanCanvasSections = [
       {
         title: "Path to Customers:",
         points: [
-          "Direct onboarding of clinics",
-  "Healthcare tech partnerships",
-  "Online promotion and outreach",
-  "Word-of-mouth referrals",
+          "Direct sales to school principals and administrative teams",
+  "Partnerships with education boards, school associations, and EdTech networks",
+  "Social proof through case studies and success stories from pilot schools",
+  "Word-of-mouth and referrals from satisfied teachers and parent committees",
+          "School management conferences and education expos"
         ],
       },
     ],
@@ -139,10 +147,11 @@ const leanCanvasSections = [
       {
         title: "",
         points: [
-        "Cloud hosting and infrastructure",
-  "Development and maintenance",
-  "Marketing and outreach",
-  "Customer support operations",
+        "Scalable cloud hosting and infrastructure (AWS/GCP)",
+  "Product development, maintenance, and security updates",
+  "Educational marketing, partnerships, and sales team",
+  "Teacher training, parent onboarding, and customer success operations",
+          "SMS/WhatsApp notification gateway costs"
         ],
       },
     ],
@@ -154,10 +163,11 @@ const leanCanvasSections = [
       {
         title: "",
         points: [
-          "Subscription fee from clinics",
-  "Premium feature upgrades",
-  "Setup or customization charges",
-  "Support and maintenance plans",
+          "Tiered subscription model: Base (₹50-100/student/month) to Premium (₹150+)",
+  "Enterprise deals with large school chains (50+ schools) at volume discounts",
+  "Premium feature upgrades for advanced analytics and performance tracking",
+          "Setup, customization, and integration charges (one-time)",
+  "Optional support and training packages for initial rollout"
         ],
       },
     ],

@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { cn } from "@/lib/utils"
 
 const navItems = [
-  { id: "hero", label: "MediFlow" },
+  { id: "hero", label: "EduTrack" },
   { id: "signals", label: "PROBLEMS BEING ADDRESSED" },
   { id: "work", label: "SOLUTION" },
   { id: "video", label: "VIDEO" },

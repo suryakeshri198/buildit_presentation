@@ -15,20 +15,20 @@ gsap.registerPlugin(ScrollTrigger)
 /** Your revenue ideas. Each item becomes one card in the horizontal scroll. */
 const revenueModels = [
   {
-    title: "Project-Based Commission",
-    description: "The platform earns a commission from the project enrollment fee paid by learners.",
+    title: "Institution Subscription",
+    description: "Schools pay a monthly or yearly subscription for platform access, analytics, and management tools.",
   },
   {
-    title: "Pro Subscription (AI-Powered Features)",
-    description: "Users can upgrade to a premium plan to access AI-assisted learning tools, code insights, and progress analytics.",
+    title: "Premium Feature Tier",
+    description: "Advanced analytics, AI insights, and enhanced reporting offered through premium upgrades.",
   },
   {
-    title: "Paid Mentorship Support",
-    description: "Learners can opt for additional one-on-one or on-demand mentor assistance for specific technical challenges.",
+    title: "Customization Services",
+    description: "Paid onboarding, training, and feature customization for institutions adopting EduTrack.",
   },
   {
-    title: "Micro-Revenue Streams",
-    description: "Small-value earnings generated through add-ons such as certifications, advanced project access, and premium learning tools.",
+    title: "Certification & Add-Ons",
+    description: "Optional paid add-ons such as verified digital certificates and extended storage.",
   },
 ]
 
@@ -134,13 +134,17 @@ export function RevenueSection() {
         )}
       />
 
-      {/* Section header — id="revenue" is used by the side nav. */}
-      <div ref={headerRef} className="mb-16 pr-6 md:pr-12">
-        <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">04 / Revenue</span>
-        <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">
-          <span className="text-accent">REVENUE</span> MODEL
-        </h2>
-      </div>
+      {/* Section header */}
+<div ref={headerRef} className="mb-16 pr-6 md:pr-12">
+  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent">
+    04 / REVENUE
+  </span>
+
+  <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">
+    REVENUE <span className="text-accent">MODEL</span>
+  </h2>
+</div>
+
 
       {/* Horizontal scroll — one ref holds both scrollRef and cardsRef for animation targets. */}
       <div
